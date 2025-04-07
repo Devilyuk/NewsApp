@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Text, View, ScrollView, VirtualizedList, Modal } from 'react-native'
+import { Text, View, ScrollView, VirtualizedList } from 'react-native'
 import { gStyle } from '../styles/style'
 import NewsItem from './NewsItem'
 import Feather from '@expo/vector-icons/Feather'

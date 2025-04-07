@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Text, View, Modal } from 'react-native'
 import { gStyle } from '../styles/style'
 import Ionicons from '@expo/vector-icons/Ionicons';

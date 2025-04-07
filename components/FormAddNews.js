@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View, TextInput, Button } from 'react-native';
+import { View, TextInput, Button } from 'react-native';
 import { gStyle } from '../styles/style';
 import { Formik } from 'formik';
 

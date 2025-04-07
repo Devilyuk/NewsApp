@@ -4,7 +4,6 @@ import * as Font from 'expo-font'
 import MainStack from './navigate';
 import { Platform, View, Text } from 'react-native';
 
-
 const fonts = () => Font.loadAsync({
   'mp-bold': require('./assets/fonts/MPLUSRounded1c-Bold.ttf'),
   'mp-light': require('./assets/fonts/MPLUSRounded1c-Light.ttf'),
