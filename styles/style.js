@@ -64,7 +64,7 @@ export const gStyle = StyleSheet.create({
     zIndex: 9
   },
   tagsBoxText: {
-    backgroundColor: '#ffffff70',
+    backgroundColor: '#00000070',
     padding:5,
     color: '#fff',
     fontFamily: 'mp-bold',
@@ -81,5 +81,23 @@ export const gStyle = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 10
+  },
+  headerOfModal: {
+    position: 'relative'
+  },
+  modalCloseBtn: {
+    position: 'absolute',
+    right:20
+  },
+  form: {
+    display: 'flex',
+    gap: 20,
+    padding: 20
+  },
+  textInput: {
+    borderBottomWidth: 2
+  },
+  buttonSubmit: {
+
   }
 })

@@ -14,8 +14,8 @@ export default function App() {
   const [font, setFont] = useState(false)
 
   if (font) {
-    // if (Platform.OS == 'web')
-    //   return (<View style={{width: '100vw', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flex:1}}><Text style={{fontFamily: 'mp-bold', fontSize: 20, textAlign: 'center'}}>Приложение временно недоступно в браузере.</Text></View>)
+    if (Platform.OS == 'web')
+      return (<View style={{width: '100vw', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flex:1}}><Text style={{fontFamily: 'mp-bold', fontSize: 20, textAlign: 'center'}}>Приложение временно недоступно в браузере.</Text></View>)
 
     return (
       <MainStack />
